@@ -1,0 +1,13 @@
+{
+  "number": "04",
+  "title": "共舞科學園",
+  "english": "To Dance with Science",
+  "tagline": "Ask. Observe. Discover.",
+  "intro": "從好奇出發，在觀察、提問與實驗之間，和科學一起舞動。",
+  "theme": "theme-science",
+  "symbol": "✦",
+  "imageFolder": "images/science",
+  "sections": [{ "title": "專案介紹", "text": "在這裡填入共舞科學園的介紹文字。日後只要修改這個 data.json 即可更新內容。" }],
+  "youtube": [],
+  "links": []
+}

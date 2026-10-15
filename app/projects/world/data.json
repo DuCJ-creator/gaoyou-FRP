@@ -1,0 +1,13 @@
+{
+  "number": "03",
+  "title": "縱覽人間世",
+  "english": "To Explore the World",
+  "tagline": "Look closer. Travel further.",
+  "intro": "把世界化作一張可展開的地圖，看見文化與生活的多種樣貌。",
+  "theme": "theme-world",
+  "symbol": "◎",
+  "imageFolder": "images/world",
+  "sections": [{ "title": "專案介紹", "text": "在這裡填入縱覽人間世的介紹文字。日後只要修改這個 data.json 即可更新內容。" }],
+  "youtube": [],
+  "links": []
+}

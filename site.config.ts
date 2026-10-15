@@ -1,6 +1,6 @@
-/**
- * 建立 GitHub repository 後，把下方網址改成：
- * https://raw.githubusercontent.com/你的帳號/你的repo/main/public/content
- * 網站每次開啟頁面都會重新抓取對應 JSON，不需重新修改程式。
- */
-export const githubContentBaseUrl = '';
+/** 公開 GitHub repository 的圖片來源。建立 repository 後只需填寫這三項。 */
+export const githubImages = {
+  owner: '',
+  repo: '',
+  branch: 'main',
+} as const;

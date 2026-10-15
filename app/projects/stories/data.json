@@ -1,0 +1,13 @@
+{
+  "number": "02",
+  "title": "漫遊故事林",
+  "english": "To Wander in Stories",
+  "tagline": "Every story leaves a trail.",
+  "intro": "循著文字的小徑，走進故事深處，遇見想像與共鳴。",
+  "theme": "theme-stories",
+  "symbol": "⌁",
+  "imageFolder": "images/stories",
+  "sections": [{ "title": "專案介紹", "text": "在這裡填入漫遊故事林的介紹文字。日後只要修改這個 data.json 即可更新內容。" }],
+  "youtube": [],
+  "links": []
+}

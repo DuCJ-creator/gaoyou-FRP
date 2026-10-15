@@ -1,0 +1,13 @@
+{
+  "number": "05",
+  "title": "筆尖下的 AI 魔法",
+  "english": "To Write with AI",
+  "tagline": "Human ideas, amplified.",
+  "intro": "讓創意與人工智慧並肩，把一個念頭寫成更遠的可能。",
+  "theme": "theme-ai",
+  "symbol": "✎",
+  "imageFolder": "images/ai-writing",
+  "sections": [{ "title": "專案介紹", "text": "在這裡填入筆尖下的 AI 魔法介紹文字。日後只要修改這個 data.json 即可更新內容。" }],
+  "youtube": [],
+  "links": []
+}

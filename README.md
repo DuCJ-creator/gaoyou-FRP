@@ -1,40 +1,67 @@
 # 五徑學堂
 
-五個學習專案的入口網站，包含：
+網站只有一個首頁，以及五個獨立專案頁面。
 
-1. 指尖上的「愛單字」
-2. 漫遊故事林
-3. 縱覽人間世
-4. 共舞科學園
-5. 筆尖下的 AI 魔法
+```text
+app/
+├── page.tsx                       # 五個專案的首頁 index
+└── projects/
+    ├── ivocab/
+    │   ├── page.tsx               # 專案 index
+    │   └── data.json              # 專案資料
+    ├── stories/
+    │   ├── page.tsx
+    │   └── data.json
+    ├── world/
+    │   ├── page.tsx
+    │   └── data.json
+    ├── science/
+    │   ├── page.tsx
+    │   └── data.json
+    └── ai-writing/
+        ├── page.tsx
+        └── data.json
+```
 
-## 更新頁面內容
+## 更新專案內容
 
-每個專案的內容都放在 `public/content` 對應的 JSON 檔案中。可以加入以下四種內容：
+直接修改該專案資料夾裡的 `data.json`：
 
-```json
-{
-  "updatedAt": "2026-10-15",
-  "items": [
-    { "type": "text", "title": "文章標題", "body": "文章內容" },
-    { "type": "image", "title": "圖片標題", "url": "/images/example.jpg", "caption": "圖片說明" },
-    { "type": "youtube", "title": "影片標題", "url": "https://www.youtube.com/embed/VIDEO_ID" },
-    { "type": "link", "title": "延伸閱讀", "body": "連結簡介", "url": "https://example.com" }
-  ]
+- `intro`：頁面介紹
+- `sections`：文字段落
+- `youtube`：YouTube 連結，可留空
+- `links`：外部連結，可留空
+- `imageFolder`：該專案在 GitHub repository 裡的圖片資料夾
+
+## 圖片自動輪播
+
+在 `site.config.ts` 填入公開 GitHub repository 的資料：
+
+```ts
+export const githubImages = {
+  owner: '你的 GitHub 帳號',
+  repo: 'repository 名稱',
+  branch: 'main',
 }
 ```
 
-若希望網站每次開啟都直接讀取 GitHub 最新檔案，建立 repository 後，請在 `site.config.ts` 的 `githubContentBaseUrl` 填入：
+然後把圖片放進以下資料夾：
 
 ```text
-https://raw.githubusercontent.com/你的帳號/你的repo/main/public/content
+images/ivocab/
+images/stories/
+images/world/
+images/science/
+images/ai-writing/
 ```
 
-## 本機使用
+頁面開啟時會從 GitHub 自動讀取資料夾內的 JPG、PNG、WebP、GIF 或 AVIF，並每五秒輪播。新增或刪除圖片不需要修改頁面程式。
+
+> 這個免登入的方式適用於公開 repository。私人 repository 不應把存取權杖放在瀏覽器程式中。
+
+## 本機預覽
 
 ```bash
 npm install
 npm run dev
 ```
-
-發佈前請設定 `NEXT_PUBLIC_SITE_URL` 為正式網站網址，讓分享預覽圖片使用正確網址。
