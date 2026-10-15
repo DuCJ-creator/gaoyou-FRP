@@ -10,7 +10,7 @@
   "symbol": "Aa",
   "logo": { "src": "/logos/ivocab.png", "altZh": "愛單字專案標誌", "altEn": "iVocab project logo" },
   "galleries": [
-    { "titleZh": "愛單字影像紀錄", "titleEn": "iVocab Visual Stories", "folder": "images/ivocab" }
+    { "titleZh": "愛單字", "titleEn": "iVocab", "folder": "images/ivocab/materials" }
   ],
   "embeds": [
     { "titleZh": "愛單字線上學習", "titleEn": "iVocab Online Learning", "url": "" }
