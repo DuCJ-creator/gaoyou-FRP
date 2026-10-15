@@ -22,9 +22,9 @@ export default function ImageCarousel({ folder, title }: { folder: string; title
     fetch(url, { cache: 'no-store', signal: controller.signal, headers: { Accept: 'application/vnd.github+json' } })
       .then((response) => {
         if (!response.ok) throw new Error('Unable to load images');
-        return response.json();
+        return response.json() as Promise<GitHubFile[]>;
       })
-      .then((files: GitHubFile[]) => {
+      .then((files) => {
         const images = files
           .filter((file) => file.type === 'file' && file.download_url && imagePattern.test(file.name))
           .map((file) => ({ name: file.name.replace(/[-_]/g, ' ').replace(/\.[^.]+$/, ''), url: file.download_url as string }));

@@ -116,3 +116,32 @@ images/ai-writing/
 npm install
 npm run dev
 ```
+
+## 發布至 GitHub Pages
+
+本專案會由 GitHub Actions 自動把 `page.tsx` 建置成 GitHub Pages 可用的 HTML；不需要手動改寫成 `.html`。
+
+1. 把更新推送至 `main` 分支。
+2. 在 GitHub repository 打開 **Settings → Pages**。
+3. 將 **Build and deployment → Source** 設為 **GitHub Actions**。
+4. 等待 **Actions** 頁面的 `Deploy GitHub Pages` 顯示成功。
+
+網站網址：<https://ducj-creator.github.io/gaoyou-FRP/>
+
+如需在本機檢查 GitHub Pages 版本：
+
+```bash
+GITHUB_PAGES=true npm run build:pages
+```
+
+建置完成的 HTML 會出現在 `out/`，這個資料夾不需要提交至 GitHub。
+
+## Cloudflare（下一階段）
+
+原本的 Cloudflare 建置仍然保留：
+
+```bash
+npm run build
+```
+
+因此之後轉至 Cloudflare 時，不需要重做網站或改寫頁面。

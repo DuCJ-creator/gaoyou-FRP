@@ -13,6 +13,7 @@ const projects = [
 ];
 
 export default function DoorPortalHome() {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const router = useRouter();
   const timer = useRef<number | null>(null);
   const [active, setActive] = useState<number | null>(null);
@@ -27,11 +28,11 @@ export default function DoorPortalHome() {
     event.preventDefault();
     if (active !== null) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      router.push(projects[index].href);
+      window.location.assign(`${basePath}${projects[index].href}/`);
       return;
     }
     setActive(index);
-    timer.current = window.setTimeout(() => router.push(projects[index].href), 950);
+    timer.current = window.setTimeout(() => window.location.assign(`${basePath}${projects[index].href}/`), 950);
   };
 
   const activeProject = active === null ? null : projects[active];
@@ -49,12 +50,12 @@ export default function DoorPortalHome() {
         <div className="portal-stage">
           {/* The supplied social-preview artwork is used as the interactive home scene. */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img className="portal-artwork" src="/og.png" alt="五條彩色道路通往五扇學習之門 / Five colorful paths leading to five doors of learning" />
+          <img className="portal-artwork" src={`${basePath}/og.png`} alt="五條彩色道路通往五扇學習之門 / Five colorful paths leading to five doors of learning" />
           <div className="portal-light" aria-hidden="true" />
           {projects.map((project, index) => (
             <a
               className={`portal-door ${active === index ? 'is-selected' : ''}`}
-              href={project.href}
+              href={`${basePath}${project.href}/`}
               key={project.number}
               onClick={(event) => enterDoor(event, index)}
               style={{ '--door-x': `${project.x}%`, '--door-color': project.color } as CSSProperties}
@@ -68,7 +69,7 @@ export default function DoorPortalHome() {
         <nav className="portal-links" aria-label="特色課程入口 / Signature course entrances">
           {projects.map((project, index) => (
             <a
-              href={project.href}
+              href={`${basePath}${project.href}/`}
               key={project.number}
               onClick={(event) => enterDoor(event, index)}
               style={{ '--door-color': project.color } as CSSProperties}

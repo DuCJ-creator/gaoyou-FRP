@@ -22,7 +22,9 @@ export type ProjectData = {
 const isSafeUrl = (url: string) => /^(https?:\/\/|\/)/.test(url);
 
 export default function ProjectIndex({ data }: { data: ProjectData }) {
-  const showLogo = data.logo.src && isSafeUrl(data.logo.src);
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const logoSrc = data.logo.src.startsWith('/') ? `${basePath}${data.logo.src}` : data.logo.src;
+  const showLogo = logoSrc && isSafeUrl(logoSrc);
 
   return (
     <main className={`simple-project ${data.theme}`}>
@@ -43,7 +45,7 @@ export default function ProjectIndex({ data }: { data: ProjectData }) {
         <div className="project-logo" aria-label="專案標誌 / Project logo">
           {showLogo ? (
             // eslint-disable-next-line @next/next/no-img-element
-            <img src={data.logo.src} alt={`${data.logo.altZh} / ${data.logo.altEn}`} />
+            <img src={logoSrc} alt={`${data.logo.altZh} / ${data.logo.altEn}`} />
           ) : (
             <><strong aria-hidden="true">{data.symbol}</strong><p>專案標誌<br /><span>PROJECT LOGO</span></p></>
           )}
