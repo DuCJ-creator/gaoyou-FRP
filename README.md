@@ -1,4 +1,6 @@
-# 五徑學堂
+# 忠信雙語教案特色課程
+
+Signature Bi-Lingual Courses @ FRP CHHS
 
 網站只有一個首頁，以及五個獨立專案頁面。
 
@@ -27,11 +29,35 @@ app/
 
 直接修改該專案資料夾裡的 `data.json`：
 
-- `intro`：頁面介紹
-- `sections`：文字段落
+- `introZh`、`introEn`：中英文頁面介紹
+- `sections`：中英文文字段落
 - `youtube`：YouTube 連結，可留空
 - `links`：外部連結，可留空
 - `imageFolder`：該專案在 GitHub repository 裡的圖片資料夾
+- `logo.src`：專案 Logo 的圖片網址或網站內路徑；留空時顯示 Logo 預留區
+- `embed.url`：要用 iframe 嵌入的外部網址；留空時顯示嵌入預留區
+
+Logo 若放在網站的 `public/logos` 資料夾，可填入：
+
+```json
+"logo": {
+  "src": "/logos/ivocab.png",
+  "altZh": "愛單字專案標誌",
+  "altEn": "iVocab project logo"
+}
+```
+
+外部頁面嵌入範例：
+
+```json
+"embed": {
+  "titleZh": "愛單字線上學習",
+  "titleEn": "iVocab Online Learning",
+  "url": "https://example.com"
+}
+```
+
+部分網站會禁止被 iframe 嵌入；遇到這種情況，頁面下方仍會提供另開視窗的連結。
 
 ## 圖片自動輪播
 

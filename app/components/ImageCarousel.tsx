@@ -47,13 +47,13 @@ export default function ImageCarousel({ folder, title }: { folder: string; title
 
   if (state !== 'ready') {
     const message = {
-      loading: '正在從 GitHub 讀取圖片…',
-      setup: '設定 GitHub repository 後，圖片會自動顯示在這裡。',
-      empty: `GitHub 的 ${folder} 資料夾目前沒有圖片。`,
-      error: '暫時無法讀取 GitHub 圖片，請稍後再試。',
+      loading: '正在從 GitHub 讀取圖片… / Loading images from GitHub…',
+      setup: '設定 GitHub repository 後，圖片會自動顯示在這裡。 / Connect a GitHub repository to display images automatically.',
+      empty: `GitHub 的 ${folder} 資料夾目前沒有圖片。 / No images were found in ${folder}.`,
+      error: '暫時無法讀取 GitHub 圖片，請稍後再試。 / Images are temporarily unavailable. Please try again later.',
       ready: '',
     }[state];
-    return <div className="carousel-empty"><span>IMAGE CAROUSEL</span><p>{message}</p></div>;
+    return <div className="carousel-empty"><span>圖片輪播 / IMAGE CAROUSEL</span><p>{message}</p></div>;
   }
 
   return (
@@ -65,13 +65,13 @@ export default function ImageCarousel({ folder, title }: { folder: string; title
       </div>
       {slides.length > 1 && (
         <div className="carousel-controls">
-          <button type="button" onClick={() => goTo(current - 1)} aria-label="上一張圖片">←</button>
-          <div className="carousel-dots" aria-label="選擇圖片">
+          <button type="button" onClick={() => goTo(current - 1)} aria-label="上一張圖片 / Previous image">←</button>
+          <div className="carousel-dots" aria-label="選擇圖片 / Choose an image">
             {slides.map((slide, index) => (
-              <button key={slide.url} type="button" className={index === current ? 'active' : ''} onClick={() => goTo(index)} aria-label={`第 ${index + 1} 張：${slide.name}`} />
+              <button key={slide.url} type="button" className={index === current ? 'active' : ''} onClick={() => goTo(index)} aria-label={`第 ${index + 1} 張 / Image ${index + 1}: ${slide.name}`} />
             ))}
           </div>
-          <button type="button" onClick={() => goTo(current + 1)} aria-label="下一張圖片">→</button>
+          <button type="button" onClick={() => goTo(current + 1)} aria-label="下一張圖片 / Next image">→</button>
         </div>
       )}
     </div>
