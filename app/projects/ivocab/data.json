@@ -10,10 +10,12 @@
   "symbol": "Aa",
   "logo": { "src": "/logos/ivocab.png", "altZh": "愛單字專案標誌", "altEn": "iVocab project logo" },
   "galleries": [
-    { "titleZh": "愛單字", "titleEn": "iVocab", "folder": "images/ivocab/materials" }
+    { "titleZh": "愛單字 App", "titleEn": "iVocab App", "folder": "images/ivocab/materials" }
   ],
   "embeds": [
-    { "titleZh": "愛單字線上學習", "titleEn": "iVocab Online Learning", "url": "" }
+    { "titleZh": "級別-單元單字學習", "titleEn": "Level-Unit Vocab Learning", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/levelunits.html" },
+    { "titleZh": "級別-單元例句練習", "titleEn": "Level-Unit Sentence Practice", "url": "https://ducj-creator.github.io/Shirley-AI-Sentence-Practice/bank.html" },
+    { "titleZh": "級別-單元閱讀理解", "titleEn": "Level-Unit Reading Comprehension ", "url": "https://ducj-creator.github.io/iVocab-Readers/" }
   ],
   "sections": [{ "titleZh": "專案介紹", "titleEn": "About the Project", "textZh": "單字是語言的基石。「指尖上的「愛單字」iVocab Online」 致力於打破傳統單字背誦的枯燥弊端，結合數位科技與校園資源，打造高互動、個人化的英語學習體驗。透過循序漸進的學習架構，我們協助學生不僅能穩固單字基礎，更能全面提升閱讀理解、口語表達與寫作生動度，讓學習英語變得直覺又有效率，真正實現「愛上單字」的目標。。", "textEn": "Vocabulary is the foundation of language learning. iVocab Online revolutionizes traditional rote memorization by integrating digital technology with school platform resources to create an interactive, personalized English learning experience. Through a progressive learning framework, we empower students to build a solid vocabulary foundation while enhancing reading comprehension, spoken expression, and creative writing. By making learning intuitive and efficient, we help students truly fall in love with words." }],
  "youtube": [
