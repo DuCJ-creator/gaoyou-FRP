@@ -5,10 +5,10 @@
   "taglineZh": "彈指間，打開一個單字世界。",
   "taglineEn": "Touch a word. Open a world.",
   "introZh": "讓背單字不再枯燥、不在困難，讓你愛上背單字。",
-  "introEn": "Understand, use, and collect new words right at your fingertips.",
+  "introEn": "Understand, memorize, and apply new words right at your fingertips.",
   "theme": "theme-vocab",
   "symbol": "Aa",
-  "logo": { "src": "", "altZh": "愛單字專案標誌", "altEn": "iVocab project logo" },
+  "logo": { "src": "/logos/ivocab.png", "altZh": "愛單字專案標誌", "altEn": "iVocab project logo" },
   "galleries": [
     { "titleZh": "愛單字影像紀錄", "titleEn": "iVocab Visual Stories", "folder": "images/ivocab" }
   ],
