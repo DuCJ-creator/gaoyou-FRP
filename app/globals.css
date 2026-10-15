@@ -197,3 +197,40 @@ button { font: inherit; }
   .carousel-empty { min-height: 300px; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+/* Compact image carousel */
+.carousel-section {
+  padding: 42px 20px 50px;
+}
+
+.carousel-section .simple-section-title {
+  width: min(680px, 100%);
+  margin: 0 auto 24px;
+  text-align: center;
+}
+
+.carousel {
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.carousel-controls {
+  width: 100%;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+@media (max-width: 560px) {
+  .carousel-section {
+    padding: 32px 14px 38px;
+  }
+
+  .carousel-section .simple-section-title {
+    margin-bottom: 18px;
+  }
+
+  .carousel-controls > button {
+    width: 38px;
+    height: 38px;
+  }
+}
