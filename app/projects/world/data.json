@@ -8,7 +8,7 @@
   "introEn": "Explore the many ways people, cultures, and communities shape our world.",
   "theme": "theme-world",
   "symbol": "◎",
-  "logo": { "src": "", "altZh": "縱覽人間世專案標誌", "altEn": "To Explore the World project logo" },
+  "logo": { "src": "/logos/world.png", "altZh": "縱覽人間世專案標誌", "altEn": "To Explore the World project logo" },
   "galleries": [
     { "titleZh": "世界影像紀錄", "titleEn": "World Visual Stories", "folder": "images/world" }
   ],
