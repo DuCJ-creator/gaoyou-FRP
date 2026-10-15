@@ -8,7 +8,7 @@
   "introEn": "Let curiosity lead through observation, questions, and experiments.",
   "theme": "theme-science",
   "symbol": "✦",
-  "logo": { "src": "", "altZh": "共舞科學園專案標誌", "altEn": "To Dance with Science project logo" },
+  "logo": { "src": "/logos/science.png", "altZh": "共舞科學園專案標誌", "altEn": "To Dance with Science project logo" },
   "galleries": [
     { "titleZh": "科學影像紀錄", "titleEn": "Science Visual Stories", "folder": "images/science" }
   ],
