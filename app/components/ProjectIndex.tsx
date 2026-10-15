@@ -11,9 +11,9 @@ export type ProjectData = {
   introEn: string;
   theme: string;
   symbol: string;
-  imageFolder: string;
   logo: { src: string; altZh: string; altEn: string };
-  embed: { titleZh: string; titleEn: string; url: string };
+  galleries: { titleZh: string; titleEn: string; folder: string }[];
+  embeds: { titleZh: string; titleEn: string; url: string }[];
   sections: { titleZh: string; titleEn: string; textZh: string; textEn: string }[];
   youtube: { titleZh: string; titleEn: string; url: string }[];
   links: { labelZh: string; labelEn: string; url: string }[];
@@ -23,7 +23,6 @@ const isSafeUrl = (url: string) => /^(https?:\/\/|\/)/.test(url);
 
 export default function ProjectIndex({ data }: { data: ProjectData }) {
   const showLogo = data.logo.src && isSafeUrl(data.logo.src);
-  const showEmbed = data.embed.url && /^https?:\/\//.test(data.embed.url);
 
   return (
     <main className={`simple-project ${data.theme}`}>
@@ -52,10 +51,15 @@ export default function ProjectIndex({ data }: { data: ProjectData }) {
         <p className="simple-intro">{data.introZh}<span>{data.introEn}</span></p>
       </header>
 
-      <section className="carousel-section" aria-labelledby={`gallery-title-${data.number}`}>
-        <div className="simple-section-title"><p>圖片集 / GALLERY</p><h2 id={`gallery-title-${data.number}`}>影像紀錄 <span>Visual Stories</span></h2></div>
-        <ImageCarousel folder={data.imageFolder} title={`${data.title} / ${data.english}`} />
-      </section>
+      {data.galleries.map((gallery, index) => (
+        <section className="carousel-section" aria-labelledby={`gallery-title-${data.number}-${index}`} key={`${gallery.folder}-${index}`}>
+          <div className="simple-section-title">
+            <p>圖片集 {String(index + 1).padStart(2, '0')} / GALLERY {String(index + 1).padStart(2, '0')}</p>
+            <h2 id={`gallery-title-${data.number}-${index}`}>{gallery.titleZh}<span>{gallery.titleEn}</span></h2>
+          </div>
+          <ImageCarousel folder={gallery.folder} title={`${gallery.titleZh} / ${gallery.titleEn}`} />
+        </section>
+      ))}
 
       {data.sections.length > 0 && (
         <section className="text-section">
@@ -68,17 +72,25 @@ export default function ProjectIndex({ data }: { data: ProjectData }) {
         </section>
       )}
 
-      <section className="embed-section" aria-labelledby={`embed-title-${data.number}`}>
-        <div className="simple-section-title"><p>外部頁面 / EXTERNAL PAGE</p><h2 id={`embed-title-${data.number}`}>{data.embed.titleZh}<span>{data.embed.titleEn}</span></h2></div>
-        {showEmbed ? (
-          <div className="embed-frame">
-            <iframe src={data.embed.url} title={`${data.embed.titleZh} / ${data.embed.titleEn}`} loading="lazy" allowFullScreen sandbox="allow-forms allow-popups allow-presentation allow-same-origin allow-scripts" />
-            <a href={data.embed.url} target="_blank" rel="noreferrer">無法顯示？另開頁面 / Open in a new tab ↗</a>
-          </div>
-        ) : (
-          <div className="embed-empty"><span>IFRAME</span><p>在 data.json 填入外部網址後，頁面會嵌入顯示在這裡。<br />Add an external URL in data.json to embed the page here.</p></div>
-        )}
-      </section>
+      {data.embeds.map((embed, index) => {
+        const showEmbed = embed.url && /^https?:\/\//.test(embed.url);
+        return (
+          <section className="embed-section" aria-labelledby={`embed-title-${data.number}-${index}`} key={`${embed.titleEn}-${index}`}>
+            <div className="simple-section-title">
+              <p>外部頁面 {String(index + 1).padStart(2, '0')} / EXTERNAL PAGE {String(index + 1).padStart(2, '0')}</p>
+              <h2 id={`embed-title-${data.number}-${index}`}>{embed.titleZh}<span>{embed.titleEn}</span></h2>
+            </div>
+            {showEmbed ? (
+              <div className="embed-frame">
+                <iframe src={embed.url} title={`${embed.titleZh} / ${embed.titleEn}`} loading="lazy" allowFullScreen sandbox="allow-forms allow-popups allow-presentation allow-same-origin allow-scripts" />
+                <a href={embed.url} target="_blank" rel="noreferrer">無法顯示？另開頁面 / Open in a new tab ↗</a>
+              </div>
+            ) : (
+              <div className="embed-empty"><span>IFRAME {String(index + 1).padStart(2, '0')}</span><p>在 data.json 填入外部網址後，頁面會嵌入顯示在這裡。<br />Add an external URL in data.json to embed the page here.</p></div>
+            )}
+          </section>
+        );
+      })}
 
       {(data.youtube.length > 0 || data.links.length > 0) && (
         <section className="link-section" aria-label="影音與延伸連結 / Videos and additional links">

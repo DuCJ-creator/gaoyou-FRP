@@ -8,9 +8,13 @@
   "introEn": "Understand, use, and collect new words right at your fingertips.",
   "theme": "theme-vocab",
   "symbol": "Aa",
-  "imageFolder": "images/ivocab",
   "logo": { "src": "", "altZh": "愛單字專案標誌", "altEn": "iVocab project logo" },
-  "embed": { "titleZh": "愛單字線上學習", "titleEn": "iVocab Online Learning", "url": "" },
+  "galleries": [
+    { "titleZh": "愛單字影像紀錄", "titleEn": "iVocab Visual Stories", "folder": "images/ivocab" }
+  ],
+  "embeds": [
+    { "titleZh": "愛單字線上學習", "titleEn": "iVocab Online Learning", "url": "" }
+  ],
   "sections": [{ "titleZh": "專案介紹", "titleEn": "About the Project", "textZh": "在這裡填入愛單字專案的介紹文字。日後只要修改這個 data.json 即可更新內容。", "textEn": "Add the iVocab project introduction here. Update this data.json file whenever the content changes." }],
   "youtube": [],
   "links": []

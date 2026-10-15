@@ -8,9 +8,13 @@
   "introEn": "Explore the many ways people, cultures, and communities shape our world.",
   "theme": "theme-world",
   "symbol": "◎",
-  "imageFolder": "images/world",
   "logo": { "src": "", "altZh": "縱覽人間世專案標誌", "altEn": "To Explore the World project logo" },
-  "embed": { "titleZh": "世界探索地圖", "titleEn": "World Exploration Map", "url": "" },
+  "galleries": [
+    { "titleZh": "世界影像紀錄", "titleEn": "World Visual Stories", "folder": "images/world" }
+  ],
+  "embeds": [
+    { "titleZh": "世界探索地圖", "titleEn": "World Exploration Map", "url": "" }
+  ],
   "sections": [{ "titleZh": "專案介紹", "titleEn": "About the Project", "textZh": "在這裡填入縱覽人間世的介紹文字。日後只要修改這個 data.json 即可更新內容。", "textEn": "Add the project introduction here. Update this data.json file whenever the content changes." }],
   "youtube": [],
   "links": []

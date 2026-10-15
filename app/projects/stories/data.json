@@ -8,9 +8,13 @@
   "introEn": "Follow the trail of words into imagination, meaning, and connection.",
   "theme": "theme-stories",
   "symbol": "⌁",
-  "imageFolder": "images/stories",
   "logo": { "src": "", "altZh": "漫遊故事林專案標誌", "altEn": "To Wander in Stories project logo" },
-  "embed": { "titleZh": "故事學習空間", "titleEn": "Story Learning Space", "url": "" },
+  "galleries": [
+    { "titleZh": "故事影像紀錄", "titleEn": "Story Visuals", "folder": "images/stories" }
+  ],
+  "embeds": [
+    { "titleZh": "故事學習空間", "titleEn": "Story Learning Space", "url": "" }
+  ],
   "sections": [{ "titleZh": "專案介紹", "titleEn": "About the Project", "textZh": "在這裡填入漫遊故事林的介紹文字。日後只要修改這個 data.json 即可更新內容。", "textEn": "Add the project introduction here. Update this data.json file whenever the content changes." }],
   "youtube": [],
   "links": []

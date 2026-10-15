@@ -8,9 +8,13 @@
   "introEn": "Let curiosity lead through observation, questions, and experiments.",
   "theme": "theme-science",
   "symbol": "✦",
-  "imageFolder": "images/science",
   "logo": { "src": "", "altZh": "共舞科學園專案標誌", "altEn": "To Dance with Science project logo" },
-  "embed": { "titleZh": "科學探索空間", "titleEn": "Science Exploration Space", "url": "" },
+  "galleries": [
+    { "titleZh": "科學影像紀錄", "titleEn": "Science Visual Stories", "folder": "images/science" }
+  ],
+  "embeds": [
+    { "titleZh": "科學探索空間", "titleEn": "Science Exploration Space", "url": "" }
+  ],
   "sections": [{ "titleZh": "專案介紹", "titleEn": "About the Project", "textZh": "在這裡填入共舞科學園的介紹文字。日後只要修改這個 data.json 即可更新內容。", "textEn": "Add the project introduction here. Update this data.json file whenever the content changes." }],
   "youtube": [],
   "links": []

@@ -33,7 +33,8 @@ app/
 - `sections`：中英文文字段落
 - `youtube`：YouTube 連結，可留空
 - `links`：外部連結，可留空
-- `imageFolder`：該專案在 GitHub repository 裡的圖片資料夾
+- `galleries`：圖片輪播清單；每增加一筆就會增加一組 Carousel
+- `embeds`：iframe 外部頁面清單；每增加一筆就會增加一個嵌入區塊
 - `logo.src`：專案 Logo 的圖片網址或網站內路徑；留空時顯示 Logo 預留區
 - `embed.url`：要用 iframe 嵌入的外部網址；留空時顯示嵌入預留區
 
@@ -47,14 +48,38 @@ Logo 若放在網站的 `public/logos` 資料夾，可填入：
 }
 ```
 
-外部頁面嵌入範例：
+多組圖片輪播範例：
 
 ```json
-"embed": {
-  "titleZh": "愛單字線上學習",
-  "titleEn": "iVocab Online Learning",
-  "url": "https://example.com"
-}
+"galleries": [
+  {
+    "titleZh": "課堂活動",
+    "titleEn": "Class Activities",
+    "folder": "images/ivocab/class"
+  },
+  {
+    "titleZh": "學生作品",
+    "titleEn": "Student Work",
+    "folder": "images/ivocab/work"
+  }
+]
+```
+
+多個外部頁面嵌入範例：
+
+```json
+"embeds": [
+  {
+    "titleZh": "愛單字線上學習",
+    "titleEn": "iVocab Online Learning",
+    "url": "https://example.com"
+  },
+  {
+    "titleZh": "練習平台",
+    "titleEn": "Practice Platform",
+    "url": "https://example.org"
+  }
+]
 ```
 
 部分網站會禁止被 iframe 嵌入；遇到這種情況，頁面下方仍會提供另開視窗的連結。
