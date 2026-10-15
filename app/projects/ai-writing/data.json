@@ -8,7 +8,7 @@
   "introEn": "Write alongside AI and turn a single idea into new possibilities.",
   "theme": "theme-ai",
   "symbol": "✎",
-  "logo": { "src": "", "altZh": "AI 寫作專案標誌", "altEn": "AI writing project logo" },
+  "logo": { "src": "/logos/ai-writing.png", "altZh": "AI 寫作專案標誌", "altEn": "AI writing project logo" },
   "galleries": [
     { "titleZh": "AI 寫作影像紀錄", "titleEn": "AI Writing Visual Stories", "folder": "images/ai-writing" }
   ],
