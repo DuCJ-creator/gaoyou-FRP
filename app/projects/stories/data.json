@@ -8,7 +8,7 @@
   "introEn": "Follow the trail of words into imagination, meaning, and connection.",
   "theme": "theme-stories",
   "symbol": "⌁",
-  "logo": { "src": "", "altZh": "漫遊故事林專案標誌", "altEn": "To Wander in Stories project logo" },
+  "logo": { "src": "/logos/stories.png", "altZh": "漫遊故事林專案標誌", "altEn": "To Wander in Stories project logo" },
   "galleries": [
     { "titleZh": "故事影像紀錄", "titleEn": "Story Visuals", "folder": "images/stories" }
   ],
