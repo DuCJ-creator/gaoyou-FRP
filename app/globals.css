@@ -234,3 +234,24 @@ button { font: inherit; }
     height: 38px;
   }
 }
+/* Limit the dark gallery background */
+.carousel-section {
+  box-sizing: border-box;
+  width: min(760px, calc(100% - 32px));
+  margin: 32px auto;
+  padding: 36px 28px 42px;
+  border-radius: 28px;
+}
+
+.carousel-section + .carousel-section {
+  border-top: 0;
+}
+
+@media (max-width: 560px) {
+  .carousel-section {
+    width: calc(100% - 20px);
+    margin: 20px auto;
+    padding: 28px 14px 34px;
+    border-radius: 20px;
+  }
+}
