@@ -53,8 +53,30 @@
   "embeds": [
     { "titleZh": "級別-單元單字學習", "titleEn": "Level-Unit Vocab Learning", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/levelunits.html" },
     { "titleZh": "級別-單元例句練習", "titleEn": "Level-Unit Sentence Practice", "url": "https://ducj-creator.github.io/Shirley-AI-Sentence-Practice/bank.html" },
-    { "titleZh": "級別-單元閱讀理解", "titleEn": "Level-Unit Reading Comprehension ", "url": "https://ducj-creator.github.io/iVocab-Readers/" }
+    { "titleZh": "級別-單元閱讀理解", "titleEn": "Level-Unit Reading Comprehension ", "url": "https://ducj-creator.github.io/iVocab-Readers/" },
+    { "titleZh": "五單元單字複習遊戲", "titleEn": "5 Units Vocab Review Game ", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/5crush.html" },
+    { "titleZh": "五單元複習測驗(詞彙&閱讀", "titleEn": "5 Units Review Test(Vocab & Reading) ", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/VR/" },
+    { "titleZh": "十單元單字複習遊戲", "titleEn": "10 Units Vocabulary Review Game", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/10sprint.html" },
+    { "titleZh": "級別&混合詞彙挑戰遊戲-擊敗外星人", "titleEn": "Level/Mixed Vocab Challenge: Beat the ET", "url": "https://ducj-creator.github.io/etgame.html" },
+    { "titleZh": "混合詞彙挑戰遊戲", "titleEn": "Mixed Vocab Challenge: iVocab Champion", "url": "https://ducj-creator.github.io/ivchampion.html" },
+    { "titleZh": "詞彙拔河戰", "titleEn": "Vocab Tug of War", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/tugwar.html" }
   ],
 
-  "links": []
+  "links": [
+  {
+    "labelZh": "六級單字星際大逃脫",
+    "labelEn": "6-Level Vocab Intergalactic Escape",
+    "url": "https://vocab-escape.vercel.app/"
+  },
+  {
+    "labelZh": "自主單字練習",
+    "labelEn": "Self-Directed Vocabulary Practice",
+    "url": "https://ducj-creator.github.io/iVocab-Self-Practice/entry.html"
+  },
+  {
+    "labelZh": "自主句子練習",
+    "labelEn": "Self-Directed Sentence Practice",
+    "url": "https://ducj-creator.github.io/Shirley-AI-Sentence-Practice/entry.html"
+  }
+]
 }
