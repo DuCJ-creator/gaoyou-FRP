@@ -38,13 +38,7 @@
     "textEn": "💡 As a Student: Focus on practicing, taking quizzes, and leveling up—leave the rest, including score calculation, learning tracking, and report generation, to iVocab!\n\n- Curriculum-Aligned Learning for School Exams\nFeatures built-in vocabulary for Taiwan's CAP and GSAT/AST examinations, complete with parts of speech, definitions, and example sentences tailored for academic success.\n\n- AI Dual-Accent Pronunciation (US/UK)\nOffers AI-powered American and British pronunciations for every word and sentence, enhancing listening comprehension and speaking accuracy through multisensory learning.\n\n- Intuitive Self-Paced & Gamified Practice\nStudents can log in anytime and anywhere to practice independently or complete teacher-assigned tasks through an intuitive and engaging learning path.\n\n- Visualized Learning History & Achievements\nThe system automatically records practice history and quiz scores, allowing students to track their personal growth and stay motivated over time."
   }
 ],
-
-  "embeds": [
-    { "titleZh": "級別-單元單字學習", "titleEn": "Level-Unit Vocab Learning", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/levelunits.html" },
-    { "titleZh": "級別-單元例句練習", "titleEn": "Level-Unit Sentence Practice", "url": "https://ducj-creator.github.io/Shirley-AI-Sentence-Practice/bank.html" },
-    { "titleZh": "級別-單元閱讀理解", "titleEn": "Level-Unit Reading Comprehension ", "url": "https://ducj-creator.github.io/iVocab-Readers/" }
-  ],
- "youtube": [
+   "youtube": [
   {
     "titleZh": "愛單字學生使用指南",
     "titleEn": "iVocab Student User Guide",
@@ -56,5 +50,11 @@
     "url": "https://youtu.be/另一部影片ID"
   }
 ],
+  "embeds": [
+    { "titleZh": "級別-單元單字學習", "titleEn": "Level-Unit Vocab Learning", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/levelunits.html" },
+    { "titleZh": "級別-單元例句練習", "titleEn": "Level-Unit Sentence Practice", "url": "https://ducj-creator.github.io/Shirley-AI-Sentence-Practice/bank.html" },
+    { "titleZh": "級別-單元閱讀理解", "titleEn": "Level-Unit Reading Comprehension ", "url": "https://ducj-creator.github.io/iVocab-Readers/" }
+  ],
+
   "links": []
 }
