@@ -12,12 +12,45 @@
   "galleries": [
     { "titleZh": "愛單字 App", "titleEn": "iVocab App", "folder": "images/ivocab/materials" }
   ],
+  "sections": [
+    { "titleZh": "專案介紹", "titleEn": "About the Project", "textZh": "單字是語言的基石。「指尖上的「愛單字」iVocab Online」 致力於打破傳統單字背誦的枯燥弊端，結合數位科技與1Campus校務資源，打造高互動、個人化的英語學習體驗。透過循序漸進的學習架構，我們協助學生不僅能穩固單字基礎，更能全面提升閱讀理解、口語表達與寫作生動度，讓學習英語變得直覺又有效率，真正實現「愛上單字」的目標。", "textEn": "Vocabulary is the foundation of language learning. iVocab Online revolutionizes traditional rote memorization by integrating digital technology with school platform resources to create an interactive, personalized English learning experience. Through a progressive learning framework, we empower students to build a solid vocabulary foundation while enhancing reading comprehension, spoken expression, and creative writing. By making learning intuitive and efficient, we help students truly fall in love with words." }，
+    { "titleZh": "iVocab App 功能介紹", "titleEn": "About iVocab App Features", "textZh": "iVocab App 擺脫坊間單字軟體「各自為政」的缺點，將學生的自主學習深度融入學校與教師的管理體系中。透過連結學校教務系統，打造完整的學習歷程紀錄與高效的教學輔助工具。", "textEn": "Unlike conventional standalone vocabulary apps, iVocab integrates students' self-directed learning directly into school and teacher management systems, providing complete learning analytics and effortless tracking." }，
+    { "titleZh": "iVocab App 教師", "titleEn": "iVocab App for Teachers", "textZh": "💡 As a Teacher 老師的核心優勢：您只管依託內建內容及創建內容、分配任務；剩下的（班群同步、自動評分、歷程紀錄、成果報告），全部交給 iVocab！Focus on creating lessons and assigning tasks—leave the rest (class sync, automatic grading, learning records, and progress reports) to iVocab!
+- 無縫對接班級系統，一鍵分配評量｜Seamless Class Integration & Easy Assignment
+  - 直接搭載學校教務系統的班群資訊，免去手動建班的繁瑣流程。老師能輕鬆發放學習/考核內容，系統將自動完成評分與產出學習成果報告。
+  - Built on top of the school’s academic administrative system, teachers can assign learning materials, run assessments, and generate progress reports effortlessly without manual class setup.
+- 彈性擴充教材，實現校本共備｜Flexible Content Customization & Collaborative Lesson Planning
+  - 除了系統內建的標準字庫，老師可便捷自製或匯入客製化單字集，指派與課堂同步的練習，並能一鍵分享給同校教師進行課程共備。
+  - Beyond built-in databases, teachers can conveniently create or import custom vocabulary lists aligned with their syllabus and share them with colleagues for collaborative lesson preparation.
+- 出題列印多樣化，教學檢測最優化｜Versatile Test Generation & Printing
+  - 支援創建、指派、編輯、輸出及列印各式測驗卷（包含拼寫與認知測驗），成為課堂教學檢測的最優輔助。
+  -  Easily create, edit, assign, export, and print customized quizzes (spelling & recognition), making classroom assessment smarter and faster.
+- 即時掌握學習歷程，數據化管理成效｜Real-time Analytics & Automated Grade Export
+  - 只需指導學生一次登入與操作，之後即可從後台實時查看學生的學習表現與測驗結果，並隨時匯出成績報告，輕鬆掌握教學成效。
+  - After a single orientation on logging in and using the app, teachers can monitor student progress in real time from the admin dashboard and export comprehensive reports anytime."}，
+    { "titleZh": "iVocab App 學生", "titleEn": "iVocab App for Students", "textZh": "💡 As a Student 學生的核心優勢：你只管努力練習、測驗、闖關；剩下的（成績計算、學習過程累積、成果報告產出），全部交給 iVocab！Focus on practicing, taking quizzes, and leveling up—leave the rest (score calculation, learning tracking, and report generation) to iVocab!
+
+- 精準契合國內升學，高效有的放矢｜Curriculum-Aligned Learning for School Exams
+  - 內建大考中心發布之高中六級單字及國中會考單字，涵蓋單字、詞性、中文釋義與例句，全面契合台灣國教與升學需求。
+  - Features built-in vocabulary for Taiwan’s CAP (Junior High) and GSAT/AST (High School 6-level tier), complete with part of speech, definitions, and example sentences tailored for academic success.
+- 美英雙音 AI 發音，打造多感官學習環境｜AI Dual-Accent Pronunciation (US/UK)
+  - 所有單字與句子皆提供 AI 原音的美式與英式讀音，幫助學生建立標準發音，同時提升聽力與口語能力。
+  - Offers AI-powered American and British pronunciations for every word and sentence, enhancing listening comprehension and speaking standardness through multisensory learning.
+- 直覺操作自主學習，闖關解鎖練習｜Intuitive Self-Paced & Gamified Practice
+  - 單一帳號登入後，學生隨時隨地皆可自主練習，或完成老師指派的專屬單字集與測驗任務，在如遊戲闖關般的體驗中累積單字量。
+  - Students can log in anytime, anywhere to practice independently or complete teacher-assigned tasks through an intuitive, engaging learning path.
+- 學習歷程完整呈現，看見自我進步｜Visualized Learning History & Achievements
+  - 系統自動記錄每一次練習與測驗的軌跡，呈現清晰的學習歷程與成果，讓努力看的見。
+  - Automatically records practice history and quiz scores, allowing students to track their personal growth and stay motivated over time." }
+
+
+  ],
+
   "embeds": [
     { "titleZh": "級別-單元單字學習", "titleEn": "Level-Unit Vocab Learning", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/levelunits.html" },
     { "titleZh": "級別-單元例句練習", "titleEn": "Level-Unit Sentence Practice", "url": "https://ducj-creator.github.io/Shirley-AI-Sentence-Practice/bank.html" },
     { "titleZh": "級別-單元閱讀理解", "titleEn": "Level-Unit Reading Comprehension ", "url": "https://ducj-creator.github.io/iVocab-Readers/" }
   ],
-  "sections": [{ "titleZh": "專案介紹", "titleEn": "About the Project", "textZh": "單字是語言的基石。「指尖上的「愛單字」iVocab Online」 致力於打破傳統單字背誦的枯燥弊端，結合數位科技與校園資源，打造高互動、個人化的英語學習體驗。透過循序漸進的學習架構，我們協助學生不僅能穩固單字基礎，更能全面提升閱讀理解、口語表達與寫作生動度，讓學習英語變得直覺又有效率，真正實現「愛上單字」的目標。。", "textEn": "Vocabulary is the foundation of language learning. iVocab Online revolutionizes traditional rote memorization by integrating digital technology with school platform resources to create an interactive, personalized English learning experience. Through a progressive learning framework, we empower students to build a solid vocabulary foundation while enhancing reading comprehension, spoken expression, and creative writing. By making learning intuitive and efficient, we help students truly fall in love with words." }],
  "youtube": [
   {
     "titleZh": "愛單字學生使用指南",
