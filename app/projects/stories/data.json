@@ -15,7 +15,27 @@
   "embeds": [
     { "titleZh": "故事學習空間", "titleEn": "Story Learning Space", "url": "" }
   ],
-  "sections": [{ "titleZh": "專案介紹", "titleEn": "About the Project", "textZh": "在這裡填入漫遊故事林的介紹文字。日後只要修改這個 data.json 即可更新內容。", "textEn": "Add the project introduction here. Update this data.json file whenever the content changes." }],
+{
+  "sections": [
+    {
+      "titleZh": "專案介紹",
+      "titleEn": "About the Project",
+      "textZh": "悠遊故事森林，奠定英語閱讀與人文素養的堅實基石",
+      "textEn": "Stepping into the World of Stories, Building a Strong Foundation for English Reading and Literacy"
+    },
+    {
+      "titleZh": "課程簡介",
+      "titleEn": "Course Description",
+      "textZh": "為奠定學生紮實的英語閱讀基礎，並無縫銜接部定英語文課程，我們特別規劃了「漫遊故事林 To Wander in Stories」英語故事閱讀計畫。相較於嚴肅的經典文獻，生動有趣的故事更能激發學生的閱讀興趣，讓學生在輕鬆的氛圍中培養自然語感，逐步提升閱讀流暢度與理解力。\n\n透過多元化的閱讀活動，本課程不僅能豐富英語學習的內涵，更能潛移默化地涵育學生的人文素養，並同步將閱讀輸入轉化為豐富的寫作輸出，為未來的進階英語學習奠定永續且堅實的基石。",
+      "textEn": "Designed to establish a solid foundation in English reading and seamlessly connect with the national curriculum, the \"To Wander in Stories\" reading program invites students into an engaging literary journey. Compared to traditional classics, stories naturally captivate students' imaginations, cultivating language intuition while progressively enhancing reading fluency and comprehension.\n\nThrough a variety of interactive reading activities, this course enriches the English learning experience and quietly nurtures students' cultural and humanistic literacy. By strengthening both reading and writing skills, \"To Wander in Stories\" provides a strong, lasting foundation for future advanced language learning."
+    },
+    {
+      "titleZh": "核心學習效益",
+      "titleEn": "Key Learning Outcomes",
+      "textZh": "銜接部定課程，穩固英語根基｜Curriculum Alignment & Foundation Building\n\n扣合標準課程架構，協助學生順利過渡並深化英語聽說讀寫能力。\n\nAligns seamlessly with national curriculum standards to reinforce fundamental English skills.\n\n激發閱讀興趣，培養自然語感｜Interest-Driven Learning & Language Intuition\n\n以豐富有趣的故事取代枯燥背誦，讓學生在閱讀中自然建立英文語感與理解力。\n\nSparks genuine curiosity through engaging narratives, naturally developing language fluency and intuitive understanding.\n\n深化人文素養，拓展寫作能動力｜Humanistic Literacy & Creative Writing Enhancement\n\n跨越單純的語言學習，培養批判性思考與人文關懷，並同步提升文字表達與寫作技巧。\n\nGoes beyond language acquisition to foster critical thinking, empathy, and refined writing skills.",
+      "textEn": ""
+    }
+  ],
   "youtube": [],
   "links": []
 }
