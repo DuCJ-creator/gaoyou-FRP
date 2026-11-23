@@ -36,19 +36,21 @@
     {
       "titleZh": "核心學習效益",
       "titleEn": "Key Learning Outcomes",
-      "textZh": "為協助學生穩固英語根基並無縫銜接部定課程架構，本課程透過扣合標準的系統化設計，引導學生順利過渡並全面深化聽、說、讀、寫核心能力。同時，我們以豐富有趣的故事取代枯燥的機械式背誦，藉此激發學生的閱讀興趣，讓他們在沉浸式的閱讀過程中自然建立英文語感與理解力。\n\n此外，課程更跨越了單純的語言學習框架，著重於培養學生的批判性思考與人文關懷。透過深度閱讀與思考引導，不僅能潛移默化地深化人文素養，更能同步拓展學生的文字表達與寫作能動力，為未來的英語學習奠定全方位的厚實基礎。",
+      "textZh": "為協助學生穩固英語根基並無縫銜接部定課程架構，本課程透過扣合標準的系統化設計，引導學生順利過渡並全面深化聽、說、讀、寫核心能力。同時，我們以豐富有趣的故事取代枯燥的機械式背誦，藉此激發學生的閱讀興趣，讓他們在沉浸式的閱讀過程中自然建立英文語感與理解力。\n\n此外，課程更跨越了單純的語言學習框架，著重於培養學生的批判性思考與人文關懷。透過深度閱讀與思考引導，不僅能潛移默化地深化人文素養，更能同步拓展學生的文字表達與寫作能力，為未來的英語學習奠定全方位的厚實基礎。",
       "textEn": "Designed to reinforce fundamental English skills and align seamlessly with national curriculum standards, this program guides students through a smooth transition while deepening their core abilities in listening, speaking, reading, and writing. By replacing tedious rote memorization with engaging narratives, it sparks genuine curiosity and allows students to naturally develop language fluency and intuitive understanding.\n\nFurthermore, the curriculum goes beyond basic language acquisition to foster critical thinking and empathy. Through thoughtful reading and guided expression, it enriches humanistic literacy while simultaneously enhancing refined writing skills, establishing a well-rounded foundation for future learning."
     }
   ],
   "youtube": [],
   "links": [
-    "labelZh": "故事線上互動圖表",
-    "labelEn": "Story Reading Chart Online ",
-    "url": "https://ducj-creator.github.io/iVocab-Self-Practice/storychart.html"
-  },
-    "labelZh": "活動課程————燕麥大冒險",
-    "labelEn": "Project-based Course--- Oaty's Adventure ",
-    "url": "https://ducj-creator.github.io/events/pbl/story/oats.html"
-  }
+    {
+      "labelZh": "故事線上互動圖表",
+      "labelEn": "Story Reading Chart Online",
+      "url": "https://ducj-creator.github.io/iVocab-Self-Practice/storychart.html"
+    },
+    {
+      "labelZh": "活動課程————燕麥大冒險",
+      "labelEn": "Project-based Course--- Oaty's Adventure",
+      "url": "https://ducj-creator.github.io/events/pbl/story/oats.html"
+    }
   ]
 }
