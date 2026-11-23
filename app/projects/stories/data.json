@@ -18,7 +18,8 @@
     { "titleZh": "燕麥大冒險", "titleEn": "Oaty's Adventure", "folder": "images/stories/oaty" }
   ],
   "embeds": [
-    { "titleZh": "故事學習空間", "titleEn": "Story Learning Space", "url": "" }
+    { "titleZh": "故事線上互動圖表", "titleEn": "Story Reading Chart Online", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/storychart.html" },
+    { "titleZh": "活動課程————燕麥大冒險", "titleEn": "Project-based Course--- Oaty's Adventure", "url": "https://ducj-creator.github.io/events/pbl/story/oats.html" }
   ],
   "sections": [
     {
@@ -42,15 +43,5 @@
   ],
   "youtube": [],
   "links": [
-    {
-      "labelZh": "故事線上互動圖表",
-      "labelEn": "Story Reading Chart Online",
-      "url": "https://ducj-creator.github.io/iVocab-Self-Practice/storychart.html"
-    },
-    {
-      "labelZh": "活動課程————燕麥大冒險",
-      "labelEn": "Project-based Course--- Oaty's Adventure",
-      "url": "https://ducj-creator.github.io/events/pbl/story/oats.html"
-    }
   ]
 }
