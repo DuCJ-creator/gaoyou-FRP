@@ -13,9 +13,29 @@
     { "titleZh": "世界影像紀錄", "titleEn": "World Visual Stories", "folder": "images/world" }
   ],
   "embeds": [
-    { "titleZh": "世界探索地圖", "titleEn": "World Exploration Map", "url": "" }
+    { "titleZh": "社會探索地圖", "titleEn": "Society Exploration Map", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/L2ss.html" },
+    { "titleZh": "人文閱讀理解", "titleEn": "Social Reading Comprehension", "url": "https://ducj-creator.github.io/iVocab-Readers/L2.html" },
+    { "titleZh": "人文詞彙與閱讀理解", "titleEn": "Social Vocabulary & Reading", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/VR/L2.html" }
   ],
-  "sections": [{ "titleZh": "專案介紹", "titleEn": "About the Project", "textZh": "在這裡填入縱覽人間世的介紹文字。日後只要修改這個 data.json 即可更新內容。", "textEn": "Add the project introduction here. Update this data.json file whenever the content changes." }],
+  "sections":  [
+  {
+    "titleZh": "專案介紹",
+    "titleEn": "About the Project",
+    "textZh": "立足台灣、放眼國際，以英語探索人文社會與世界脈動",
+    "textEn": "Rooted in Taiwan, Looking to the World: Exploring Humanities, Social Sciences, and Global Perspectives in English" },
+  {
+    "titleZh": "課程簡介",
+    "titleEn": "Course Description",
+    "textZh": "為引導八年級學生透過英語領略萬千世界，我們特別規劃了「縱覽人間世 To Explore the World」專題式學習（PBL）課程。本計畫選用社會科學主題的雙語讀本（Level 2 Reader）與配套練習本，並融入國家地理（National Geographic）與探索頻道（Discovery）等優質線上資源。課程由FRP外語中心講師與校內英文、地科、自然及公民等科系教師協同合作，從學生熟悉的生活環境出發，運用地球儀、世界地圖、洲際拼圖及地形模型等豐富教具，為學生搭建起以英文理解台灣與世界地理、歷史及人文社會議題的知識框架。\n\n在學期末，課程將透過「世界知識競賽」與「世界博覽會（World Fair）」等多元成果展演，讓學生以英語報告與簡報形式，生動展現探索過程中的所學與所思，達成知行合一的學習體驗。",
+    "textEn": "Designed to guide 8th-grade students in discovering the broader world through English, the \"To Explore the World\" Project-Based Learning (PBL) curriculum integrates high-quality humanities and social science resources. Utilizing bilingual Level 2 Readers with a social science focus, accompanying workbooks, and curated digital content from National Geographic and Discovery, the program is co-facilitated by FRP Foreign Language Center instructors alongside homeroom, English, earth science, natural science, and civics teachers. Starting from students' immediate surroundings and incorporating hands-on visual aids—such as globes, world maps, continent puzzles, and topography models—the course builds a solid cognitive framework for understanding Taiwanese and global geography, history, and social issues in English.\n\nAt the end of the semester, students showcase their insights and research through an exciting World Knowledge Competition and a World Fair, turning classroom learning into dynamic, real-world English presentations."
+  },
+  {
+    "titleZh": "核心學習效益",
+    "titleEn": "Key Learning Outcomes",
+    "textZh": "透過跨領域的專題式學習與沉浸式資源應用，本課程致力於全面強化學生的英文聽說、公開講演與專題報告等綜合語言應用能力。在語言精進之外，課程更著重於扎根「台灣主體意識」並拓展「國際視野」，引導學生從認識家鄉出發，進而理解全球議題並提升國際事務的參與意識。\n\n藉由實作教具的探究與期末世界博覽會的舞台歷練，學生不僅能有效內化跨學科的人文社會知識，更能建立獨立思考與跨文化溝通的自信，逐步成長為兼具在地關懷與全球素養的現代國際公民。",
+    "textEn": "Through interdisciplinary Project-Based Learning and immersive multimedia resources, this program comprehensively strengthens students' practical English proficiency, particularly in listening, speaking, public speaking, and formal presentations. Beyond language acquisition, the curriculum fosters both a strong sense of Taiwanese cultural identity and a broad international perspective, encouraging students to connect local roots with global awareness and civic engagement.\n\nBy combining tactile learning aids with the culminating experience of the World Fair, students effectively internalize cross-disciplinary knowledge in humanities and social sciences while building the confidence needed for critical thinking and cross-cultural communication—ultimately preparing them to become informed, empathetic global citizens."
+  }
+],
   "youtube": [],
   "links": []
 }
