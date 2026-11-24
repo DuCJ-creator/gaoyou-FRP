@@ -10,7 +10,7 @@
   "symbol": "◎",
   "logo": { "src": "/logos/world.png", "altZh": "縱覽人間世專案標誌", "altEn": "To Explore the World project logo" },
   "galleries": [
-    { "titleZh": "世界影像紀錄", "titleEn": "World Visual Stories", "folder": "images/world" }
+    { "titleZh": "課程地圖", "titleEn": "Course Map", "folder": "images/world/materials" }
   ],
   "embeds": [
     { "titleZh": "社會探索地圖", "titleEn": "Society Exploration Map", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/L2ss.html" },
