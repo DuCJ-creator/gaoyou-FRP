@@ -20,7 +20,8 @@
   "embeds": [
     { "titleZh": "故事線上互動圖表", "titleEn": "Story Reading Chart Online", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/storychart.html" },
     { "titleZh": "活動課程————燕麥大冒險", "titleEn": "Project-based Course--- Oaty's Adventure", "url": "https://ducj-creator.github.io/events/pbl/story/oats.html" },
-    { "titleZh": "故事閱讀理解", "titleEn": "L1 Reading Comprehension", "url": "https://ducj-creator.github.io/iVocab-Readers/L1.html" }
+    { "titleZh": "單元故事閱讀理解", "titleEn": "Unit-based Reading Comprehension", "url": "https://ducj-creator.github.io/iVocab-Readers/L1.html" },
+    { "titleZh": "5單元詞彙與閱讀理解", "titleEn": "5-Unit Vocabulary & Reading", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/VR/L1.html" }
   ],
   "sections": [
     {
