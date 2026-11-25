@@ -59,7 +59,8 @@
     { "titleZh": "十單元單字複習遊戲", "titleEn": "10 Units Vocabulary Review Game", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/10sprint.html" },
     { "titleZh": "級別&混合詞彙挑戰遊戲-擊敗外星人", "titleEn": "Level/Mixed Vocab Challenge: Beat the ET", "url": "https://ducj-creator.github.io/etgame.html" },
     { "titleZh": "混合詞彙挑戰遊戲", "titleEn": "Mixed Vocab Challenge: iVocab Champion", "url": "https://ducj-creator.github.io/ivchampion.html" },
-    { "titleZh": "詞彙拔河戰", "titleEn": "Vocab Tug of War", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/tugwar.html" }
+    { "titleZh": "詞彙拔河戰", "titleEn": "Vocab Tug of War", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/tugwar.html" },
+    { "titleZh": "詞彙奧德賽", "titleEn": "Vocab Odyssey", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/odyssey/" }
   ],
 
   "links": [
