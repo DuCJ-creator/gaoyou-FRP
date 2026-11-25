@@ -10,12 +10,33 @@
   "symbol": "✦",
   "logo": { "src": "/logos/science.png", "altZh": "共舞科學園專案標誌", "altEn": "To Dance with Science project logo" },
   "galleries": [
-    { "titleZh": "科學影像紀錄", "titleEn": "Science Visual Stories", "folder": "images/science" }
+    { "titleZh": "科學閱讀", "titleEn": "Science Reading", "folder": "images/science/reading" }
   ],
   "embeds": [
-    { "titleZh": "科學探索空間", "titleEn": "Science Exploration Space", "url": "" }
+    { "titleZh": "科學探索地圖", "titleEn": "Science Exploration Map", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/Junior2000ns.html" },
+    { "titleZh": "會考2000單科學字彙護照", "titleEn": "Junior2000 Natural Science Vocab Passport", "url": "https://ducj-creator.github.io/CAP2000.html" },
+    { "titleZh": "會考2000單科學字彙線上拔河遊戲", "titleEn": "Junior2000 Vocab Tug of War", "url": "https://ducj-creator.github.io/j2000tug.html" }
   ],
-  "sections": [{ "titleZh": "專案介紹", "titleEn": "About the Project", "textZh": "在這裡填入共舞科學園的介紹文字。日後只要修改這個 data.json 即可更新內容。", "textEn": "Add the project introduction here. Update this data.json file whenever the content changes." }],
+  "sections": [
+  {
+    "titleZh": "專案介紹",
+    "titleEn": "About the Project",
+    "textZh": "以英語探索科學奧妙，啟發科學探究精神與跨領域思維",
+    "textEn": "Exploring the Wonders of Science in English: Inspiring Scientific Inquiry and Interdisciplinary Thinking"
+  },
+  {
+    "titleZh": "課程簡介",
+    "titleEn": "Course Description",
+    "textZh": "為引導九年級學生以英語深入探索自然科學的奧妙，我們特別規劃了「與科學共舞 To Dance with Science」跨領域專題課程。本計畫採用全外師教學，並以自然科學主題的 Junior 2000 Reader 及配套練習本（含線上學習平台）為核心載體，廣泛涵蓋物理、生命、地球與太空科學及現代科技等多元主題。課程更結合可汗學院（Khan Academy）、Discovery 頻道、麥格羅・希爾科學（McGraw Hill Science）及 Cool English 等豐富線上資源，並由 FRP 外語中心講師與校內外自然、地科教師協同指導，搭配每學期的專題講座，協助學生逐步建構系統化的科學認知架構與思維脈絡。\n\n在學期末，課程將舉辦「科學知識挑戰賽（Natural Science Quiz）」與英語「科學博覽會（Natural Science Fair）」，讓學生透過公開專題報告與互動展示，具體呈現科學探索的歷程與思考成果。",
+    "textEn": "Designed to guide 9th-grade students in discovering the wonders of natural science through English, the \"To Dance with Science\" interdisciplinary program features full instruction by native English-speaking teachers. Centered around Junior 2000 Readers with a natural science focus and accompanying workbooks (including an online learning platform), the curriculum spans physical science, life science, earth and space science, and modern technology. Enhanced with curated digital resources—such as Khan Academy, Discovery, McGraw Hill Science, and Cool English—and supported by collaborative teaching from FRP Foreign Language Center instructors, homeroom teachers, and science faculty, alongside regular guest lectures, the course helps students build a structured cognitive framework for understanding scientific concepts in English.\n\nAt the end of the semester, students put their learning into action through a Natural Science Quiz and an English Natural Science Fair, publicly showcasing their scientific research, discoveries, and analytical insights."
+  },
+  {
+    "titleZh": "核心學習效益",
+    "titleEn": "Key Learning Outcomes",
+    "textZh": "透過全外師沉浸式教學與跨學科的協同引導，本課程全面提升學生的英語聽說、公開演講與專題報告等綜合語言應用能力，讓英語真正成為探索專業知識的實用工具。在科學素養層面，多元的數位資源與專題講座不僅有效激發學生對自然科學的學習熱情，更培養其主動提問、實證分析的探究精神。\n\n藉由「科學知識挑戰賽」的良性競爭與「科學博覽會」的實戰發表，學生能將抽象的科學理論轉化為清晰的英文邏輯表達，建立兼備科學思辨力與國際溝通力的全方位素養。",
+    "textEn": "Through immersive instruction by native English-speaking teachers and interdisciplinary collaboration, this program comprehensively strengthens students' English listening, speaking, public speaking, and formal presentation skills—transforming English into a practical tool for academic inquiry. In terms of scientific literacy, diverse digital platforms and thematic lectures spark genuine curiosity while cultivating a spirit of active investigation and evidence-based reasoning.\n\nBy participating in the Natural Science Quiz and presenting at the Natural Science Fair, students learn to translate complex scientific concepts into clear, logical English expressions, building well-rounded competencies in both scientific critical thinking and international communication."
+  }
+]
   "youtube": [],
   "links": []
 }
