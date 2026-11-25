@@ -10,12 +10,33 @@
   "symbol": "✎",
   "logo": { "src": "/logos/ai-writing.png", "altZh": "AI 寫作專案標誌", "altEn": "AI writing project logo" },
   "galleries": [
-    { "titleZh": "AI 寫作影像紀錄", "titleEn": "AI Writing Visual Stories", "folder": "images/ai-writing" }
+    { "titleZh": "寫作AI批改樣本", "titleEn": "AI- Checked Writing Samples", "folder": "images/ai-writing/samples" }
   ],
   "embeds": [
-    { "titleZh": "AI 寫作空間", "titleEn": "AI Writing Space", "url": "" }
+    { "titleZh": "寫作教練", "titleEn": "Shirley's Writing Coach", "url": "https://ducj-creator.github.io/Shirley-AI-Writing/version2.html" },
+    { "titleZh": "寫作備賽", "titleEn": "Contest Preparation Pack", "url": "https://ducj-creator.github.io/events/shengw.html" },
+    { "titleZh": "線上翻譯寫作", "titleEn": "Translation/Writing Practice Online", "url": "https://ducj-creator.github.io/Shirley-AI-Writing/gsattw.html" }
   ],
-  "sections": [{ "titleZh": "專案介紹", "titleEn": "About the Project", "textZh": "在這裡填入筆尖下的 AI 魔法介紹文字。日後只要修改這個 data.json 即可更新內容。", "textEn": "Add the project introduction here. Update this data.json file whenever the content changes." }],
+  "sections": [
+  {
+    "titleZh": "專案介紹",
+    "titleEn": "About the Project",
+    "textZh": "融合生成式AI與精準數據診斷，突破英文寫作瓶頸、打造高分論述力",
+    "textEn": "Integrating Generative AI and Data-Driven Diagnostics to Overcome Writing Bottlenecks and Build High-Scoring Essay Skills"
+  },
+  {
+    "titleZh": "課程簡介",
+    "titleEn": "Course Description",
+    "textZh": "為突破傳統英文寫作練習與批改的時空限制，並順應生成式 AI 教育趨勢，我們特別為普通高中學生規劃了「筆尖下的AI魔法 To Write with AI」英語寫作強化計畫。本計畫建置了與學測作文題型（包含看圖寫作、圖表分析、議題論述及應用信件等）高度對齊的專屬題庫，由教師團隊依教學進度指派階段性任務。學生每週可透過個人設備登入 AI 寫作平台自主練習，系統將針對文法、字彙選用、句型變化及段落邏輯提供即時糾錯、佳句示範與學測等級預估。\n\n同時，教師團隊每月透過平台後台進行數據追蹤，歸納班級與個人寫作盲點並進行針對性的課堂指導與範文賞析；學年末更將舉辦模擬學測規格的英文寫作競賽，結合 AI 初篩與教師團複審，全面檢視並肯定學生的長期寫作蛻變。",
+    "textEn": "Designed to overcome the traditional time and feedback constraints of English writing instruction while embracing advancements in generative AI, the \"To Write with AI\" program empowers general high school students to elevate their essay writing. Built around a dedicated prompt bank aligned with General Scholastic Ability Test (GSAT) formats—including picture-based writing, chart analysis, argumentative essays, and formal letters—the curriculum features structured assignments paced by English faculty. Each week, students log into the AI writing platform for self-paced practice, receiving instant error correction, vocabulary and sentence structure enhancements, high-scoring sample expressions, and multi-dimensional diagnostic reports with estimated GSAT grading.\n\nOn a monthly basis, teachers analyze platform data to identify common class and individual weak spots, delivering targeted classroom instruction and model essay reviews. The program culminates in a year-end GSAT-style writing competition evaluated through both AI preliminary screening and expert faculty review to celebrate students' tangible growth."
+  },
+  {
+    "titleZh": "核心學習效益",
+    "titleEn": "Key Learning Outcomes",
+    "textZh": "透過「AI 即時個人化回饋」與「教師精準數據引導」的雙軌並行機制，本計畫大幅增加了學生的寫作練習頻率與修改意願，有效化解學測英文寫作的實力瓶頸。學生不僅能從即時診斷中修正文法與用字盲點，更能逐步內化轉折詞運用、段落銜接與高分修辭技巧，建構嚴謹的英語邏輯論述架構。\n\n此外，科技賦能大幅減輕了教師逐字批改的負擔，使教學重心得以轉向高層次的思辨引導與個別化輔導，讓學生在人機協作的高效學習模式中穩健累積寫作實力，從容應對大考挑戰。",
+    "textEn": "Through a dual-track approach combining instant, personalized AI feedback with data-informed teacher guidance, this program significantly increases students' writing frequency and revision habits, effectively breaking through GSAT English writing bottlenecks. Students not only correct grammatical and lexical blind spots in real time, but also progressively master transitional phrasing, paragraph cohesion, and sophisticated rhetorical techniques to construct logical, persuasive essays.\n\nFurthermore, by automating routine line-by-line corrections, the platform frees teachers to focus on higher-order critical thinking guidance and individualized coaching—enabling students to build lasting writing confidence and excel in high-stakes exams through human-AI collaboration."
+  }
+],
   "youtube": [],
   "links": []
 }
