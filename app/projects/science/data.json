@@ -10,8 +10,7 @@
   "symbol": "✦",
   "logo": { "src": "/logos/science.png", "altZh": "共舞科學園專案標誌", "altEn": "To Dance with Science project logo" },
   "galleries": [
-    { "titleZh": "科學閱讀", "titleEn": "Science Reading", "folder": "images/science/reading" },
-    { "titleZh": "回收計劃", "titleEn": "Recycle Project", "folder": "images/science/project1" }
+    { "titleZh": "科學閱讀", "titleEn": "Science Reading", "folder": "images/science/reading" }
   ],
   "embeds": [
     { "titleZh": "科學探索地圖", "titleEn": "Science Exploration Map", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/Junior2000ns.html" },
