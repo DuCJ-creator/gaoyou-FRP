@@ -10,7 +10,8 @@
   "symbol": "◎",
   "logo": { "src": "/logos/world.png", "altZh": "縱覽人間世專案標誌", "altEn": "To Explore the World project logo" },
   "galleries": [
-    { "titleZh": "課程地圖", "titleEn": "Course Map", "folder": "images/world/materials" }
+    { "titleZh": "課程地圖", "titleEn": "Course Map", "folder": "images/world/materials" },
+    { "titleZh": "海底生物", "titleEn": "Underworld Animals", "folder": "images/world/project1" }
   ],
   "embeds": [
     { "titleZh": "社會探索地圖", "titleEn": "Society Exploration Map", "url": "https://ducj-creator.github.io/iVocab-Self-Practice/L2ss.html" },
